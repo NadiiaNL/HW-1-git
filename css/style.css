@@ -7,10 +7,19 @@ body{
     padding:15px;
 }
 .header{
-    text-align:center;
+   
 }
 li{
-    margin-bottom:20px;
+    position:relative;
+}
+li:before{
+    content:'\2713';
+    position:absolute;
+    top:-2px;
+    left:-20px;
+}
+li{
+    list-style:none;
 }
 .list-item{
     font-weight:900;
