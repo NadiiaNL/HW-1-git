@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HW-1-GIT</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div class="base-block block">
+       <h1 class="base-header header">Base</h1>
+        <ol class="base-list">
+            <li><span class="list-item">git config --global user.name blabla</span> - встановлює глобально для всіх проектів ім'я, яке буде відображатися в полі автора у виконаних автором комітах.</li>
+            <li><span class="list-item">git config --global user.email blabal@bla</span> - встановлює  глобально для всіх проектів електронну адресу,яка буде відображатися в інформації про створенні коміти.</li>
+            <li><span class="list-item">git init</span> - створення нового репозиторія git в поточній директорії, або ж прописати щлях самостійно.</li>
+            <li><span class="list-item">git status</span> - показує стан файлів в робочій області і в індексі, які файли змінені, але ще не додані в індекс(staging area), які очікують бути закоміченими,а також є підказки, які дії необхідно провести для цього</li>
+            <li><span class="list-item">git add</span> - додає вміст робочої директорії в індекс(staging area) для подальношого створення коміта(скріншота нашого проекта).</li>
+            <li><span class="list-item">git commit</span> - бере всі дані із індекса(staging area) зберігає знімок у внутрішню базу даних, тобто робить знімок поточного стану проекта.</li>
+            <li><span class="list-item">git log</span> - використовується для перегляду історії комітів, починаючи з поточного і до джерел проекту. По замовчуванню, вона показує лише історію поточної гілки, але може бути налаштована на вивід історії інших.</li>
+            <li><span class="list-item">git checkout</span>- використовується для переключення гілок і вигрузки їх вмісту в робочу директорію.</li>
+            <li><span class="list-item">git branch</span> - відображає список гілок проекту, а також вказує на поточну.</li>
+            <li><span class="list-item">git push</span> - встановлення зв'язку з віддаленним репозиторієм, відслідковування локальних змін відсутніх в ньому і відповідно відправки цих змін на віддалений репозиторій. </li>
+            <li><span class="list-item">git pull</span> - дозволяє загрузити останню версію із віддаленого репозиторію і обновити локальну версію.</li>
+            <li><span class="list-item">git merge</span> - використовується для злиття однієї або декількох віток з поточною.</li>
+            <li><span class="list-item">git clone</span> - клонує віддалений репозиторій разом із усією історією змін в локальний каталог</li>
+        </ol>
+        <p class="gitignore">.gitignore</p>
+   </div>
+    <div class="base-block block">
+        <h1 class="advanced-header header">Advanced</h1>
+        <ul class="advanced-list">
+            <li>git revert</li>
+            <li>git reset</li>
+            <li>git rebase</li>
+            <li>git cherry-pick</li>
+            <li>git stash</li>
+        </ul>
+    </div>
+</body>
+</html>
